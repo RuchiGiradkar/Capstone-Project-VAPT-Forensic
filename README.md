@@ -1,5 +1,3 @@
-# Capstone-Project-VAPT-Forensic
-
 # Capstone Project – VAPT & Forensic Analysis
 
 ## Project Overview  

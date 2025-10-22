@@ -56,7 +56,7 @@ A comprehensive **VAPT engagement** with integrated **digital forensics**.
 
 ## Repository Contents  
 - **Capstone_Project_Ruchi_Giradkar.pptx** – Final project presentation.  
-- **Final_VAPT_Report-Ruchi_Giradkar.pdf** – Detailed assessment report.  
+- **VAPT_Report-Ruchi_Giradkar.pdf** – Detailed assessment report.  
 - **Screenshots/** – Evidence and findings from the engagement.  
 
 ---

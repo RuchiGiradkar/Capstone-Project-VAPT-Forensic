@@ -11,22 +11,6 @@ The assessment simulated real-world attacks on **TechShield’s corporate lab en
 
 ---
 
-## Methodology  
-
-### Four-phase Testing Methodology  
-![Four Phase Testing Methodology](./Four_Phase_Testing.png)  
-
-*Figure: Four-phase testing methodology used in the assessment.*
-
----
-
-### Tools Used  
-![Tools Used](./Tools_Photo.png)  
-
-*Figure: Tools and platforms used during the assessment.*
-
----
-
 ## Problem Statement  
 TechShield reported recurring security incidents caused by:  
 - Weaknesses in **network, web applications, and passwords**.  
@@ -43,13 +27,21 @@ A comprehensive **VAPT engagement** with integrated **digital forensics**.
 - Password Attacks: Hydra, Metasploit (EternalBlue)  
 - Forensics: Autopsy, md5sum  
 
+![Tools Used](./Tools_Photo.png)  
+
+*Figure: Tools and platforms used during the assessment.*
+
 ---
 
 ## Approach (Phased Testing)  
-1. Reconnaissance – Information gathering (hosts, ports, OS, services).  
-2. Target Assessment – Vulnerability scanning & enumeration.  
-3. Exploitation & Validation – SQLi, XSS, Hydra password cracking, reverse shells.  
-4. Forensic Analysis – Hash verification, hidden file recovery, and evidence documentation.  
+1. **Reconnaissance** – Information gathering (hosts, ports, OS, services).  
+2. **Target Assessment** – Vulnerability scanning & enumeration.  
+3. **Exploitation & Validation** – SQLi, XSS, Hydra password cracking, reverse shells.  
+4. **Forensic Analysis** – Hash verification, hidden file recovery, and evidence documentation.  
+
+![Four Phase Testing Methodology](./Four_Phase_Testing.png)  
+
+*Figure: Four-phase testing methodology used in the assessment.*
 
 ---
 
@@ -65,19 +57,4 @@ A comprehensive **VAPT engagement** with integrated **digital forensics**.
 ## Recommendations  
 - Patch outdated systems (migrate from unsupported Windows versions).  
 - Enforce strong password policies & MFA.  
-- Apply secure coding practices (input validation, WAF).  
-- Standardize forensic investigation procedures and train staff.  
-
----
-
-## Repository Contents  
-- **Capstone_Project_Ruchi_Giradkar.pptx** – Final project presentation.  
-- **VAPT_Report-Ruchi_Giradkar.pdf** – Detailed assessment report.  
-- **Screenshots/** – Evidence and findings from the engagement.  
-
----
-
-## Author  
-**Ruchi Giradkar**  
-- Master’s in Mechatronic & Cyber-Physical Systems – Deggendorf Institute of Technology, Germany.  
-- Cybersecurity Specialist with 3+ years of experience in **risk assessment, vulnerability analysis, and security architecture**.  
+- Apply secure coding practices (input validation, W

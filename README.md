@@ -27,7 +27,7 @@ A comprehensive **VAPT engagement** with integrated **digital forensics**.
 - Password Attacks: Hydra, Metasploit (EternalBlue)  
 - Forensics: Autopsy, md5sum  
 
-![Tools Used](./Tools_Photo.png)  
+![Tools Used](./images/Tools_Photo.png)  
 
 *Figure: Tools and platforms used during the assessment.*
 
@@ -39,7 +39,7 @@ A comprehensive **VAPT engagement** with integrated **digital forensics**.
 3. **Exploitation & Validation** – SQLi, XSS, Hydra password cracking, reverse shells.  
 4. **Forensic Analysis** – Hash verification, hidden file recovery, and evidence documentation.  
 
-![Four Phase Testing Methodology](./Four_Phase_Testing.png)  
+![Four Phase Testing Methodology](./images/Four_Phase_Testing.png)  
 
 *Figure: Four-phase testing methodology used in the assessment.*
 

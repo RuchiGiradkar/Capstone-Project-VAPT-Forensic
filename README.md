@@ -1,60 +1,120 @@
 # Capstone Project – VAPT & Forensic Analysis
 
 ## Project Overview  
-This project focuses on **Vulnerability Assessment and Penetration Testing (VAPT)** combined with **Forensic Evidence Collection**.  
-The assessment simulated real-world attacks on **TechShield’s corporate lab environment**, identifying system weaknesses, exploiting them ethically, and validating findings with forensic investigation.  
+This capstone project demonstrates a full cybersecurity assessment combining **Vulnerability Assessment & Penetration Testing (VAPT)** with **Digital Forensic Evidence Collection & Analysis** in a simulated corporate lab network of TechShield.
 
-**Key Goals:**  
-- Identify and assess vulnerabilities in network and web applications.  
-- Perform password security testing to detect weak credentials.  
-- Apply forensic techniques to recover hidden evidence and ensure chain of custody.  
+The objective was to emulate realistic cyber-attacks, ethically exploit system and web vulnerabilities, and then perform forensic validation to ensure evidence integrity and traceability.
+
+**Core Focus Areas**
+- Network & web application security testing  
+- Ethical exploitation to validate vulnerabilities  
+- Password security testing  
+- Forensic image verification & hidden evidence recovery  
 
 ---
 
 ## Problem Statement  
-TechShield reported recurring security incidents caused by:  
-- Weaknesses in **network, web applications, and passwords**.  
-- Lack of **forensic readiness** to investigate incidents.  
+TechShield observed repeated test-environment security incidents due to:
 
-**Need:**  
-A comprehensive **VAPT engagement** with integrated **digital forensics**.  
+- Weak system and application configurations  
+- Outdated operating systems & unpatched services  
+- Weak password practices  
+- Limited forensic readiness for incident investigation  
+
+**Goal:** Conduct a structured VAPT engagement integrated with forensic procedures to strengthen security posture and improve incident response capability.
 
 ---
 
 ## Tools & Platforms Used  
-- Reconnaissance & Scanning: Netdiscover, Nmap, Greenbone (OpenVAS)  
-- Web Testing: DVWA (SQL Injection, XSS, File Upload, Reverse Shell)  
-- Password Attacks: Hydra, Metasploit (EternalBlue)  
-- Forensics: Autopsy, md5sum  
+| Category | Tools |
+|---|---|
+| Recon & Scanning | Netdiscover, Nmap, Greenbone/OpenVAS |
+| Web Exploitation | DVWA (SQLi, XSS, File Upload, Reverse Shell) |
+| Password Attacks | Hydra |
+| System Exploitation | Metasploit (MS17-010 / EternalBlue) |
+| Digital Forensics | Autopsy, md5sum |
 
 ![Tools Used](./images/Tools_Photo.png)  
-
-*Figure: Tools and platforms used during the assessment.*
+*Tools and platforms used*
 
 ---
 
-## Approach (Phased Testing)  
-1. **Reconnaissance** – Information gathering (hosts, ports, OS, services).  
-2. **Target Assessment** – Vulnerability scanning & enumeration.  
-3. **Exploitation & Validation** – SQLi, XSS, Hydra password cracking, reverse shells.  
-4. **Forensic Analysis** – Hash verification, hidden file recovery, and evidence documentation.  
+## Approach (Phased Testing)
+1. **Reconnaissance** — Host discovery, port scanning, service enumeration  
+2. **Target Assessment** — Vulnerability scanning & password checks  
+3. **Exploitation & Validation** — Ethical exploitation to confirm risks  
+4. **Forensic Analysis** — Evidence integrity validation & recovery of hidden files  
 
 ![Four Phase Testing Methodology](./images/Four_Phase_Testing.png)  
-
-*Figure: Four-phase testing methodology used in the assessment.*
+*Four-phase testing methodology*
 
 ---
 
 ## Project Outcomes  
-- 58 vulnerabilities identified (16 High, 38 Medium, 4 Low).  
-- Outdated OS and SMB vulnerabilities (MS17-010) exploited.  
-- Weak passwords cracked (`Administrator: P@ssw0rd`, `student: P@ssw0rd`).  
-- Web application flaws (SQLi, XSS, File Upload) successfully exploited.  
-- 5 hidden images recovered during forensic investigation (chain of custody preserved).  
+**58 security vulnerabilities identified**  
+- 16 High  
+- 38 Medium  
+- 4 Low  
+
+Successfully exploited outdated Windows machine (MS17-010 / EternalBlue)  
+Cracked weak passwords using Hydra  
+> `Administrator: P@ssw0rd`  
+> `student: P@ssw0rd`
+
+Exploited DVWA vulnerabilities  
+- SQL Injection  
+- Stored XSS  
+- File upload to remote command execution  
+- Reverse shell access  
+
+Digital Forensics Success  
+- Verified forensic image integrity with MD5 hashes  
+- Recovered **5 hidden evidence files**  
+- Detected disguised image files & potential obfuscation  
+- Maintained proper chain of custody  
 
 ---
 
 ## Recommendations  
-- Patch outdated systems (migrate from unsupported Windows versions).  
-- Enforce strong password policies & MFA.  
-- Apply secure coding practices (input validation, W
+| Area | Recommendation |
+|---|---|
+Patch Management | Upgrade unsupported OS & apply critical patches  
+Authentication | Strong password policy, MFA, lockout policy  
+Network Security | Disable SMBv1, restrict SMB/RDP access  
+Web Security | Input validation, secure file upload controls, WAF  
+Forensic Readiness | Standardize forensic processes, SIEM logging & alerting  
+
+---
+
+## Key Skills Demonstrated  
+- Vulnerability Assessment & Reporting  
+- Penetration Testing & Exploitation  
+- Web Application Security Testing  
+- OS & Network Security Analysis  
+- Password Security & Brute-force Attacks  
+- Digital Forensics & Evidence Handling  
+- Documentation & Chain-of-Custody Procedures  
+
+---
+
+## Screenshots & Evidence (Add in Repo)
+> Nmap results  
+> OpenVAS scan findings  
+> SQLi & XSS exploits  
+> Reverse shell terminal evidence  
+> Hash verification screenshots  
+> Recovered forensic images
+
+---
+
+## Conclusion  
+This project demonstrates hands-on ability to:
+
+- Identify and exploit real-world security weaknesses  
+- Analyze and secure networks and web applications  
+- Perform forensic integrity checks and evidence recovery  
+- Produce structured, professional reporting and recommendations  
+
+It reflects a comprehensive understanding of both **offensive security** and **digital forensic practices**, essential for modern cybersecurity roles.
+
+

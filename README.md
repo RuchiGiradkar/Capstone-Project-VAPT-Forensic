@@ -1,4 +1,4 @@
-# Capstone Project – VAPT & Forensic Analysis
+# Capstone Project - VAPT & Forensic Analysis
 
 ## Project Overview  
 This capstone project demonstrates a full cybersecurity assessment combining **Vulnerability Assessment & Penetration Testing (VAPT)** with **Digital Forensic Evidence Collection & Analysis** in a simulated corporate lab network of TechShield.

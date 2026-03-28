@@ -97,7 +97,7 @@ Forensic Readiness | Standardize forensic processes, SIEM logging & alerting
 
 ---
 
-## Screenshots & Evidence (Add in Repo)
+## Screenshots & Evidence (Included in Report)
 > Nmap results  
 > OpenVAS scan findings  
 > SQLi & XSS exploits  
